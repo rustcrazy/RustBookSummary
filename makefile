@@ -17,4 +17,3 @@ deploy: book
 	    git add . && \
         git commit -m "updated book on $(shell date) by ${USER}" && \
         git push origin main
-	git worktree remove /tmp/book
