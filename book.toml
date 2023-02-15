@@ -1,0 +1,6 @@
+[book]
+authors = ["zhulg"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Rust Book Summary"
