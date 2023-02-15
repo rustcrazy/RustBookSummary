@@ -10,10 +10,10 @@ deploy: book
 	cp -rp book/* /tmp/book/
 	cd /tmp/book && \
         git add -A && \
-        git commit -m "deployed on $(shell date) by ${USER}" && \
+        git commit -m "deployed on $(shell date) " && \
         git push origin gh-pages
 	@echo "====> push main begin ..$(pwd)"
 	pwd
 	    git add . && \
-        git commit -m "updated book on $(shell date) by ${USER}" && \
+        git commit -m "updated book on $(shell date)" && \
         git push origin main
