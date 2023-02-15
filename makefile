@@ -16,10 +16,11 @@ build:
 # 提交更改到main分支
 commit-main:
 	git add src
-	#git add README.md
-	#git add book.toml
-	#git add .gitignore
-	git add --all -- :!book
+	git add README.md
+	git add book.toml
+	git add .gitignore
+	git add makefile
+	#git add --all -- :!book
 	git commit -m "Update book"
 	git push origin main
 
